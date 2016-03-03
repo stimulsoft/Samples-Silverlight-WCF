@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IViewerService" receiveTimeout="00:05:00"
+                    maxBufferSize="2147483647" maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="../ViewerService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IViewerService" contract="ServiceReference1.IViewerService"
+                name="BasicHttpBinding_IViewerService" />
+        </client>
+    </system.serviceModel>
+</configuration>

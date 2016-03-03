@@ -1,0 +1,6 @@
+﻿<UserControl x:Class="WCF_SLDesigner.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:slDesigner="clr-namespace:Stimulsoft.Report.SLDesign;assembly=Stimulsoft.Report.SLDesign">
+    <slDesigner:StiSLDesignerControl x:Name="designer"/>
+</UserControl>

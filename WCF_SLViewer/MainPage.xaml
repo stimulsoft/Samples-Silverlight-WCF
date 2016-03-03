@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WCF_SLViewer.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:Stimulsoft.Controls.SL;assembly=Stimulsoft.Controls.SL"
+             xmlns:slViewer="clr-namespace:Stimulsoft.Report.Viewer;assembly=Stimulsoft.Report.Viewer.SL">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Left" Margin="4,0,0,0" Orientation="Horizontal">
+            <controls:StiComboBox Name="cbReports" Width="250" Height="23" SelectedIndex="0">
+                <controls:StiComboBox.Items>
+                    <controls:StiComboBoxItem>SimpleList.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>Anchors.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>BarCodes.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>ChartAreas.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>Images.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>DrillDownGroupWithCollapsing.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>DrillDownGroupWithCollapsingWithoutFooter.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>DrillDownListOfProducts.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>DrillDownMasterDetailWithCollapsing.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>DrillDownSorting.mrt</controls:StiComboBoxItem>
+                    <controls:StiComboBoxItem>HighlightCondition.mrt</controls:StiComboBoxItem>
+                </controls:StiComboBox.Items>
+            </controls:StiComboBox>
+            <controls:StiButton x:Name="buttonLoad" Height="23" MinWidth="80" Margin="8,0,0,0" Click="buttonLoad_Click" Content="Load Report"/>
+        </StackPanel>
+        <slViewer:StiSLViewerControl x:Name="viewer" Grid.Row="1"/>
+    </Grid>
+</UserControl>

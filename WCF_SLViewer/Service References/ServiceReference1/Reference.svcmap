@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0b651933-f871-4805-a9be-12d40ea2c65b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:46963/ViewerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ViewerService.disco" MetadataType="Disco" ID="6bf4b7eb-f490-4131-af7d-03a2a01a762f" SourceId="1" SourceUrl="http://localhost:46963/ViewerService.svc?disco" />
+    <MetadataFile FileName="ViewerService.xsd" MetadataType="Schema" ID="e1abfd31-c705-4b65-a33c-93eda8e6855d" SourceId="1" SourceUrl="http://localhost:46963/ViewerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ViewerService.wsdl" MetadataType="Wsdl" ID="627db336-40dc-46ed-898d-55b550ea290e" SourceId="1" SourceUrl="http://localhost:46963/ViewerService.svc?wsdl" />
+    <MetadataFile FileName="ViewerService1.xsd" MetadataType="Schema" ID="c1bd70c0-6a76-4786-9adc-9becb2e2c804" SourceId="1" SourceUrl="http://localhost:46963/ViewerService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

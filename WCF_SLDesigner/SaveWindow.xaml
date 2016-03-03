@@ -1,0 +1,9 @@
+﻿<slControls:StiWindow x:Class="WCF_SLDesigner.SaveWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:slControls="clr-namespace:Stimulsoft.Controls.SL;assembly=Stimulsoft.Controls.SL"
+    Width="150" Height="70" Title="Save" HasCloseButton="False">
+    <Grid>
+        <slControls:StiButton x:Name="OKButton" Content="Continue" Width="90" Height="23" HorizontalAlignment="Right" Margin="0,0,6,0"/>
+    </Grid>
+</slControls:StiWindow>
