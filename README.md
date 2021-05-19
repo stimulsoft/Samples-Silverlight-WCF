@@ -1,6 +1,6 @@
 ## Attention!
 
-This repository is archived, and the source code of these examples is no longer updated. Compatibility with new versions of the product is not guaranteed.
+This repository is archived, and the source code of these examples is no longer updated, because the technology used in the examples is outdated and no longer supported.
 
 ---
 
