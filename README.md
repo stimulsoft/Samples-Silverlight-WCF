@@ -1,3 +1,9 @@
+## Attention!
+
+This repository is archived, and the source code of these examples is no longer updated. Compatibility with new versions of the product is not guaranteed.
+
+---
+
 # Silverlight WCF samples
 
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.Silverlight using WCF.
